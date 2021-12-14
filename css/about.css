@@ -1,0 +1,125 @@
+
+/*css reset*/
+
+/*google fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Merriweather', serif;
+
+/*end of CSS reset*/
+
+
+body{
+    background-color: rgb(52, 93, 145);
+    color:rgb(44, 48, 47)
+    margin 10px 15%;
+}
+
+nav{
+    height: 50px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+nav ul {
+    display: flex; 
+    justify-content: space-around;
+    font-variant-caps: all-petite-caps;
+    list-style-type: none;
+}
+
+
+
+
+    
+table,
+tr,
+th,
+td{
+    border: 1px solid rgb(52, 93, 145);
+    border-collapse: collapse;
+    margin: 10px 0;
+    padding: 2px 0;
+}
+
+td{
+    color: rgb(255, 255, 255);
+    padding: 4px 8px
+}
+
+thead,
+tr{
+    background-color: rgb(182, 35, 35);
+}
+
+th {
+    color: rgb(255, 255, 255);
+}
+
+tr {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+}
+  
+
+h2 {
+    text-align: center;
+    color: rgb(182,35,34);
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+}
+
+fieldset {
+    text-align: center;
+    color: rgb(243, 243, 243);
+}
+
+p, ul, ol {
+    font-size: 1.5rem ;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-weight: 900;
+    
+}
+
+
+h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Merriweather', serif;
+}
+
+.info {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+}
+   
+a:visited { 
+    
+    color: rgb(255, 255, 255); 
+   }
+
+   a:hover {
+    color:rgb(0, 0, 0)
+}
+
+footer {
+    color: rgb(255, 255, 255);
+}
